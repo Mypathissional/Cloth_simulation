@@ -17,8 +17,8 @@ Forces = {}
 Forces["K"] = 1
 Forces["stiffness"] = 0
 Forces["D"] = 0
-
-cloth = Cloth(N, N, fixed, Forces)
+interval_length = 0.001
+cloth = Cloth(N, N, interval_length, fixed, Forces)
 
 init_velocity_ind = [[M - 1], [N - 1]]
 

@@ -29,11 +29,12 @@ class SpringForce:
 
 
 class Cloth:
-    def __init__(self, N, M, fixed, Forces):
+    def __init__(self, N, M, interval_length, fixed, Forces):
         self.Forces = Forces
         self.M = M
         self.N = N
         self.fixed = fixed
+        self.interval_length = interval_length
 
         self.__init_forces()
 
