@@ -11,7 +11,7 @@ import mpl_toolkits.mplot3d.axes3d as p3
 
 # Init params
 
-save_to_file = True
+save_to_file = True # else 3d animations is made
 M, N = 20, 20
 fixed = np.array([[0,  0, M - 1, M - 1, ], [0,  N - 1, 0, N - 1]])
 Forces = {}
